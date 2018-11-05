@@ -1,0 +1,17 @@
+The project calculates the similarity of logical expressions
+
+Input data:
+ pre-set logical expressions(file>logic) and final result logical expressions filtered by finalRes.java
+
+Output result: 
+file>res
+
+Note: The name of 1-9 in the result of finalRes.java is changed to 01-09, and the name of 100 is changed to 999.
+In order to ensure that the output results are one-to-one correspondence, because eclipse calculation is performed according to the serial number from small to large.
+For example: pres1.txt > pres01.txt
+
+Modify parameters to perform statistics on phenotypes and loci:
+1)name = "30-26" //Data set being executed
+2)app.GetRealExp("file\\logic\\Slogic" + name + ".txt")//Pre-set logical expression
+3)new File("E:\\PSOlab\\" + name + "\\res\\finals")// Detected logical expression
+4)new FileOutputStream("file\\res\\S" + name + ".txt") //Output path
