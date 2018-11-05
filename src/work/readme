@@ -9,6 +9,7 @@ file>res
 Note: The name of 1-9 in the result of finalRes.java is changed to 01-09, and the name of 100 is changed to 999.
 In order to ensure that the output results are one-to-one correspondence, because eclipse calculation is performed according to the serial number from small to large.
 For example: pres1.txt > pres01.txt
+Uploaded data has changed.
 
 Modify parameters to perform statistics on phenotypes and loci:
 1)name = "30-26" //Data set being executed
